@@ -36,8 +36,8 @@ class NotifyUser implements ShouldQueue
                 'notification_sent_at' => now(),
             ]);
 
-        $mail = new VaccinationScheduleMail($this->user->name, $this->center);
+        //$mail = new VaccinationScheduleMail($this->user->name, $this->center);
 
-        Mail::to($this->user->email)->send($mail);
+        //Mail::to($this->user->email)->send($mail);
     }
 }

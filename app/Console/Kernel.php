@@ -14,8 +14,9 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule): void
     {
         $schedule->job(new ScheduleVaccination())
-            ->dailyAt('21:00')
-            ->days(Schedule::SUNDAY . "-" . Schedule::THURSDAY);
+            ->everyMinute(); // for testing
+            //->dailyAt('13:18')
+            //->days(Schedule::SUNDAY . "-" . Schedule::THURSDAY);
     }
 
     /**
