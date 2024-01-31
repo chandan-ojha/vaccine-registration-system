@@ -1,4 +1,4 @@
-![Project screenshot](./public/images/project-screenshot.png)
+![Project screenshot](./public/images/project-screenshot.PNG)
 
 <h2 align="center">Vaccine Registration Application</h2>
 
