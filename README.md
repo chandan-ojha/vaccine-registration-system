@@ -14,7 +14,7 @@ This project was created to help people register for the vaccine.
 - [MySQL](https://www.mysql.com)
 - [Tailwind CSS](https://tailwindcss.com)
 
-### How to run
+### Setup Instructions
 Follow the instructions
 
 - Clone the repository
@@ -24,6 +24,13 @@ Follow the instructions
 - Run `php artisan key:generate` to generate the application key
 - Run `php artisan migrate --seed` to create the database tables and seed the database
 - Run `php artisan serve` to start the server and access the application
+
+### Run queue and task scheduling
+
+- Run `php artisan schedule:run` to run the task scheduler 
+- Run `php artisan queue:work` to run the queue
+
+
 
 
 
