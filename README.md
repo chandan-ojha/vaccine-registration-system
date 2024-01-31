@@ -1,11 +1,11 @@
 ![Project screenshot](./public/images/project-screenshot.PNG)
 
-<h2 align="center">Vaccine Registration Application</h2>
+<h3 align="center">Vaccine Registration Application</h3>
 
-### Why?
+#### Why?
 This project was created to help people register for the vaccine.
 
-### Tech used
+#### Tech used
 
 - [Laravel](https://laravel.com)
 - [Livewire](https://laravel-livewire.com)
@@ -14,7 +14,7 @@ This project was created to help people register for the vaccine.
 - [MySQL](https://www.mysql.com)
 - [Tailwind CSS](https://tailwindcss.com)
 
-### Setup Instructions
+#### Setup Instructions
 Follow the instructions
 
 - Clone the repository
@@ -25,7 +25,7 @@ Follow the instructions
 - Run `php artisan migrate --seed` to create the database tables and seed the database
 - Run `php artisan serve` to start the server and access the application
 
-### Run queue and task scheduling
+#### Run queue and task scheduling
 
 - Run `php artisan schedule:run` to run the task scheduler 
 - Run `php artisan queue:work` to run the queue
