@@ -29,7 +29,7 @@ class AppPanelProvider extends PanelProvider
             ->id('app')
             ->path('admin')
             ->login()
-            ->brandName('Admin Panel')
+            ->brandName('Vaccination Panel')
             ->colors([
                 'primary' => Color::Violet,
             ])
