@@ -15,7 +15,8 @@ class ListVaccinations extends ListRecords
     public function getTabs(): array
     {
         return [
-            'all' => Tab::make('All Vaccinations'),
+            'all' => Tab::make('All')
+                ->icon('heroicon-m-user-group'),
             'Vaccinated' => Tab::make('Vaccinated')
                 ->modifyQueryUsing(function ($query) {
                     return $query->where('status', VaccinationStatus::VACCINATED);
