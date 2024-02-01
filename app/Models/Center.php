@@ -15,8 +15,8 @@ class Center extends Model
         'limit',
     ];
 
-    public function users(): HasMany
+    public function vaccinations(): HasMany
     {
-        return $this->hasMany(User::class);
+        return $this->hasMany(Vaccination::class);
     }
 }
