@@ -42,7 +42,7 @@ class VaccinationScheduleMail extends Mailable
             view: 'mails.vaccination-schedule-mail',
             with: [
                 'user' => $this->user,
-                'center' => $this->center->name,
+                'center' => $this->center,
             ],
         );
     }

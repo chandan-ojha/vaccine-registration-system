@@ -42,7 +42,6 @@ class ScheduleVaccination implements ShouldQueue
 
             foreach ($notVaccinatedUsers as $user) {
                 $vaccineCenter = $user->center;
-
                 NotifyUser::dispatch($user, $vaccineCenter);
             }
         }

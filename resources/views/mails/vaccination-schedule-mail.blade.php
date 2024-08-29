@@ -11,8 +11,8 @@
 <h1>Vaccination Schedule Mail</h1>
 <p>Dear {{ $user->name }},</p>
 <p>Thank you for registering with us. We are pleased to inform you that your vaccination schedule is as follows:</p>
-<p><strong>Vaccine Date:</strong> {{ $vaccine->date }}</p>
-<p><strong>Vaccine Center:</strong> {{ $vaccine->center }}</p>
+<p><strong>Vaccine Date:</strong> {{ $user->notification_sent_at }}</p>
+<p><strong>Vaccine Center:</strong> {{ $center->name }}</p>
 <p>Thank you.</p>
 <p>Regards,</p>
 <p>Team Vaccination</p>
